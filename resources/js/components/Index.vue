@@ -13,17 +13,17 @@
                   >
                 </v-avatar>
                 <div class="headline">
-                  John
-                  <span style="font-weight:bold">{{ $t('title') }}</span>
+                  {{ $t('author.name') }}
+                  <span style="font-weight:bold">{{ $t('author.family') }}</span>
                 </div>
                 <div
                   class="subheading text-xs-center grey--text pt-1 pb-3"
-                >Lorem ipsum dolor sit amet</div>
+                >{{ $t('author.title') }}</div>
                 <v-layout justify-space-between>
-                  <a href="javascript:;" class="body-2">Home</a>
-                  <a href="javascript:;" class="body-2">About</a>
-                  <a href="javascript:;" class="body-2">Github</a>
-                  <a href="javascript:;" class="body-2">Other</a>
+                  <a href="javascript:;" class="body-2">{{ $t('home.menu.github') }}</a>
+                  <a href="javascript:;" class="body-2">{{ $t('home.menu.contact_me') }}</a>
+                  <a href="javascript:;" class="body-2">{{ $t('home.menu.about_me') }}</a>
+                  <a href="javascript:;" class="body-2">{{ $t('home.menu.home') }}</a>
                 </v-layout>
               </div>
             </v-flex>

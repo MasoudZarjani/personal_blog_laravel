@@ -1,7 +1,17 @@
 {
-    "title":"Masoud Zarjani",
+    "author":{
+        "name":"مسعود",
+        "family": "زرجانی",
+        "title": "a newbe programmer"
+    },
     "home": {
-        "title": ""
+        "title": "",
+        "menu": {
+            "home": "Home",
+            "about-me": "About-me",
+            "contact-me": "Contact-me",
+            "github": "Github"
+        }
     },
     "dashboard":{
         

@@ -1,7 +1,17 @@
 {
-    "title":"مسعود زرجانی",
+    "author":{
+        "name":"مسعود",
+        "family": "زرجانی",
+        "title": " یک برنامه نویس تازه کار"
+    },
     "home": {
-        "title": ""
+        "title": "",
+        "menu": {
+            "home": "خانه",
+            "about_me": "درباره من",
+            "contact_me": "تماس با من",
+            "github": "گیت هاب"
+        }
     },
     "dashboard":{
         

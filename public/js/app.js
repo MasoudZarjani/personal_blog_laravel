@@ -38456,12 +38456,14 @@ var render = function() {
                             _vm._v(" "),
                             _c("div", { staticClass: "headline" }, [
                               _vm._v(
-                                "\n                John\n                "
+                                "\n                " +
+                                  _vm._s(_vm.$t("author.name")) +
+                                  "\n                "
                               ),
                               _c(
                                 "span",
                                 { staticStyle: { "font-weight": "bold" } },
-                                [_vm._v(_vm._s(_vm.$t("title")))]
+                                [_vm._v(_vm._s(_vm.$t("author.family")))]
                               )
                             ]),
                             _vm._v(" "),
@@ -38471,7 +38473,7 @@ var render = function() {
                                 staticClass:
                                   "subheading text-xs-center grey--text pt-1 pb-3"
                               },
-                              [_vm._v("Lorem ipsum dolor sit amet")]
+                              [_vm._v(_vm._s(_vm.$t("author.title")))]
                             ),
                             _vm._v(" "),
                             _c(
@@ -38484,7 +38486,7 @@ var render = function() {
                                     staticClass: "body-2",
                                     attrs: { href: "javascript:;" }
                                   },
-                                  [_vm._v("Home")]
+                                  [_vm._v(_vm._s(_vm.$t("home.menu.github")))]
                                 ),
                                 _vm._v(" "),
                                 _c(
@@ -38493,7 +38495,11 @@ var render = function() {
                                     staticClass: "body-2",
                                     attrs: { href: "javascript:;" }
                                   },
-                                  [_vm._v("About")]
+                                  [
+                                    _vm._v(
+                                      _vm._s(_vm.$t("home.menu.contact_me"))
+                                    )
+                                  ]
                                 ),
                                 _vm._v(" "),
                                 _c(
@@ -38502,7 +38508,7 @@ var render = function() {
                                     staticClass: "body-2",
                                     attrs: { href: "javascript:;" }
                                   },
-                                  [_vm._v("Github")]
+                                  [_vm._v(_vm._s(_vm.$t("home.menu.about_me")))]
                                 ),
                                 _vm._v(" "),
                                 _c(
@@ -38511,7 +38517,7 @@ var render = function() {
                                     staticClass: "body-2",
                                     attrs: { href: "javascript:;" }
                                   },
-                                  [_vm._v("Other")]
+                                  [_vm._v(_vm._s(_vm.$t("home.menu.home")))]
                                 )
                               ]
                             )
@@ -76729,10 +76735,10 @@ __webpack_require__.r(__webpack_exports__);
 /*!***********************************!*\
   !*** ./resources/js/i18n/en.json ***!
   \***********************************/
-/*! exports provided: title, home, dashboard, default */
+/*! exports provided: author, home, dashboard, default */
 /***/ (function(module) {
 
-module.exports = {"title":"Masoud Zarjani","home":{"title":""},"dashboard":{}};
+module.exports = {"author":{"name":"مسعود","family":"زرجانی","title":"a newbe programmer"},"home":{"title":"","menu":{"home":"Home","about-me":"About-me","contact-me":"Contact-me","github":"Github"}},"dashboard":{}};
 
 /***/ }),
 
@@ -76740,10 +76746,10 @@ module.exports = {"title":"Masoud Zarjani","home":{"title":""},"dashboard":{}};
 /*!***********************************!*\
   !*** ./resources/js/i18n/fa.json ***!
   \***********************************/
-/*! exports provided: title, home, dashboard, default */
+/*! exports provided: author, home, dashboard, default */
 /***/ (function(module) {
 
-module.exports = {"title":"مسعود زرجانی","home":{"title":""},"dashboard":{}};
+module.exports = {"author":{"name":"مسعود","family":"زرجانی","title":" یک برنامه نویس تازه کار"},"home":{"title":"","menu":{"home":"خانه","about_me":"درباره من","contact_me":"تماس با من","github":"گیت هاب"}},"dashboard":{}};
 
 /***/ }),
 
